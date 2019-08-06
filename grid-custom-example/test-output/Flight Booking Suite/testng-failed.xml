@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Flight Booking Suite]" parallel="tests">
+  <test thread-count="2" verbose="3" name="Android Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.testingfoo.grid.AppiumGridTest">
+        <methods>
+          <include name="androidTest"/>
+          <include name="testAndroid"/>
+        </methods>
+      </class> <!-- com.testingfoo.grid.AppiumGridTest -->
+    </classes>
+  </test> <!-- Android Test(failed) -->
+</suite> <!-- Failed suite [Flight Booking Suite] -->

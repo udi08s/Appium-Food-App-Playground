@@ -6,6 +6,7 @@
     <class name="com.testingfoo.grid.AppiumGridTest">
       <methods>
         <include name="testAndroid" />
+        <include name="androidTest" />
       </methods>
     </class>
   </classes>
